@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav {
+    width: 90%;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+nav .logo {
+    font-size: 40px;
+    color : rgb(9, 109, 17);
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    margin-bottom: 0;
+    position: relative;
+    top: 20px;
+}
+
+nav ul li {
+    margin: 0 30px;
+}
+
+nav ul li a {
+    font-size: larger;
+    font-weight: 500;
+}
+nav ul li a:hover {
+    text-decoration: none;
+    color: black;
+}
+
+.view-detail{
+    color: rgb(65, 185, 10);
+    font-weight: bold;
+}
+
+.view-detail:hover {
+    text-decoration: none;
+    color: black;
+}
